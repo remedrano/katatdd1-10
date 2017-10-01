@@ -5,17 +5,12 @@ class Estadistica:
             return 0
         else:
             numeros = cadena.split(",")
-            cantidad = 0
-            for num in numeros:
-                cantidad += 1
-            return cantidad
+            return len(numeros)
 
     def minimoElementos (self, cadena):
         if cadena == "":
             return 0
-        elif "," in cadena:
+        else:
             numeros = cadena.split(",")
             numeros.sort()
             return int(numeros[0])
-        else:
-            return int(cadena)
