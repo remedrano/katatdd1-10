@@ -1,4 +1,5 @@
 
 class Estadistica:
-    def numeroElementos(self):
-        pass
+    def numeroElementos(self, cadena):
+        if (cadena == ""):
+            return 0
