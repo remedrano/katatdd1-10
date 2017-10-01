@@ -18,3 +18,5 @@ class Estadistica:
     def maximoElementos(self, cadena):
         if cadena == "":
             return 0
+        else:
+            return int(cadena)
