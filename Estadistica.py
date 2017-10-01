@@ -14,3 +14,6 @@ class Estadistica:
             numeros = cadena.split(",")
             numeros.sort()
             return int(numeros[0])
+
+    def maximoElementos(self):
+        pass
