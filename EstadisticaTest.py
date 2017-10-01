@@ -28,3 +28,5 @@ class TestEstadistica(TestCase):
         self.assertEqual(Estadistica().maximoElementos("1"), 1, "Un numero")
     def test_maximoElemtosDosNumeros(self):
         self.assertEqual(Estadistica().maximoElementos("1,2"), 2, "Dos numeros")
+    def test_maximoElemtosNNumeros(self):
+        self.assertEqual(Estadistica().maximoElementos("1,2,4,7,6,3"), 7, "N numeros")
