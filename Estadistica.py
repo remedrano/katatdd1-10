@@ -24,14 +24,12 @@ class Estadistica:
             numeros.reverse()
             return int(numeros[0])
 
-    def promedioElemntos(self,cadena):
+    def promedioElemntos(self, cadena):
         if cadena == "":
             return 0
-        elif "," in cadena:
+        else:
             numeros = cadena.split(",")
-            suma = 0
+            suma = 0.0
             for num in numeros:
                 suma += int(num)
-            return float(float(suma) / len(numeros))
-        else:
-            return int(cadena)
+            return suma / len(numeros)
