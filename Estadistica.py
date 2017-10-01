@@ -27,3 +27,5 @@ class Estadistica:
     def promedioElemntos(self,cadena):
         if cadena == "":
             return 0
+        else:
+            return int(cadena)
