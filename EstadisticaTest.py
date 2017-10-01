@@ -33,3 +33,5 @@ class TestEstadistica(TestCase):
 
     def test_promedioElemtos(self):
         self.assertEqual(Estadistica().promedioElemntos(""), 0, "Cadena vacia")
+    def test_promedioElemtosUnNumero(self):
+        self.assertEqual(Estadistica().promedioElemntos("1"), 1, "Un numero")
