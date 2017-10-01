@@ -22,3 +22,5 @@ class TestEstadistica(TestCase):
     def test_minimoElemtosNNumeros(self):
         self.assertEqual(Estadistica().minimoElementos("4,3,1,2"), 1, "N numeros")
 
+    def test_maximoElemtos(self):
+        self.assertEqual(Estadistica().maximoElementos(""), 0, "Cadena vacia")
