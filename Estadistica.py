@@ -15,5 +15,6 @@ class Estadistica:
             numeros.sort()
             return int(numeros[0])
 
-    def maximoElementos(self):
-        pass
+    def maximoElementos(self, cadena):
+        if cadena == "":
+            return 0
