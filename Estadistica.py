@@ -19,6 +19,11 @@ class Estadistica:
         if cadena == "":
             return 0
         elif "," in cadena:
+            numeros = cadena.split(",")
+            numeros.sort()
+            numeros.reverse()
+            return int(numeros[0])
+        elif "," in cadena:
             if int(cadena[0]) > int(cadena[2]):
                 return int(cadena[0]);
             else:
