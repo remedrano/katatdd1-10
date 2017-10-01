@@ -9,3 +9,6 @@ class Estadistica:
             for num in numeros:
                 cantidad += 1
             return cantidad
+
+    def minimoElementos(cadena):
+        pass
