@@ -10,5 +10,6 @@ class Estadistica:
                 cantidad += 1
             return cantidad
 
-    def minimoElementos(cadena):
-        pass
+    def minimoElementos(self, cadena):
+        if cadena == "":
+            return 0
