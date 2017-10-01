@@ -24,5 +24,6 @@ class Estadistica:
             numeros.reverse()
             return int(numeros[0])
 
-    def promedioElemntos(self):
-        pass
+    def promedioElemntos(self,cadena):
+        if cadena == "":
+            return 0
