@@ -37,3 +37,5 @@ class TestEstadistica(TestCase):
         self.assertEqual(Estadistica().promedioElemntos("1"), 1, "Un numero")
     def test_promedioElemtosDosNumeros(self):
         self.assertEqual(Estadistica().promedioElemntos("1,3"), 2, "Dos numeros")
+    def test_promedioElemtosNNumeros(self):
+        self.assertEqual(Estadistica().promedioElemntos("1,3,2,6,4"), 3.2, "N numeros")
