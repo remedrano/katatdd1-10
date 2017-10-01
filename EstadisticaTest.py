@@ -10,3 +10,5 @@ class TestEstadistica(TestCase):
         self.assertEqual(Estadistica().numeroElementos("1"), 1, "Un numero")
     def test_numeroElementosDosNumeros(self):
         self.assertEqual(Estadistica().numeroElementos("1,2"), 2, "Dos numeros")
+    def test_numeroElementosNnumeros(self):
+        self.assertEqual(Estadistica().numeroElementos("1,2,4,7,6,3"), 6, "N numeros")
