@@ -23,3 +23,6 @@ class Estadistica:
             numeros.sort()
             numeros.reverse()
             return int(numeros[0])
+
+    def promedioElemntos(self):
+        pass

@@ -30,3 +30,6 @@ class TestEstadistica(TestCase):
         self.assertEqual(Estadistica().maximoElementos("1,2"), 2, "Dos numeros")
     def test_maximoElemtosNNumeros(self):
         self.assertEqual(Estadistica().maximoElementos("1,2,4,7,6,3"), 7, "N numeros")
+
+    def test_promedioElemtos(self):
+        self.assertEqual(Estadistica().promedioElemntos(""), 0, "Cadena vacia")
